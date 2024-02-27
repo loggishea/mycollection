@@ -16,7 +16,7 @@ def scale_face(bm, face, scale_x, scale_y, scale_z):
                     space=face_space,
                     verts=face.verts)def menu_func(self, context):
     self.layout.operator(GenerateSpaceship.bl_idname, text="Spaceship")
-
+#good
 def register():
     bpy.utils.register_class(GenerateSpaceship)
     bpy.types.VIEW3D_MT_mesh_add.append(menu_func)
